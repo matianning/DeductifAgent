@@ -1,7 +1,7 @@
 #include "ruleBase.h"
 
 void RuleBase::afficher(){
-	std::cout<<"************Affichage de la base de Règle************"<<std::endl;
+    std::cout<<"************Affichage de la base de Regle************"<<std::endl;
 	for(size_t i = 0; i < rules.size(); i++){
 		std::cout<<"R"<<i<<" : ";
 		rules[i].afficher();
