@@ -4,4 +4,14 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        main.cpp
+        joueur.cpp \
+        main.cpp \
+        rule.cpp \
+        ruleBase.cpp \
+        terrain.cpp
+
+HEADERS += \
+    joueur.h \
+    rule.h \
+    ruleBase.h \
+    terrain.h
