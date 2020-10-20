@@ -1,12 +1,5 @@
 #include "terrain.h"
-/*
-Terrain::Terrain()
-	:width(5),height(3){
-		std::vector<string> a(width, "- ");
-		std::vector<std::vector<string>> b(height, a);
-		terrain = b;
-}
-*/
+
 
 Terrain::Terrain(std::vector<Joueur> e1, std::vector<Joueur> e2)
     :width(11), height(9), _e1(e1), _e2(e2), fin(false){
