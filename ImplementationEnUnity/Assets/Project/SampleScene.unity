@@ -124,12 +124,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &158650767 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100010, guid: 02257fc10ef7ad149b5daa123a7df881,
-    type: 3}
-  m_PrefabInstance: {fileID: 1387771303}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &204441784
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -199,12 +193,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cb7c129b7ec1fb4293dd40773bdce33, type: 3}
---- !u!1 &236062494 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100008, guid: 02257fc10ef7ad149b5daa123a7df881,
-    type: 3}
-  m_PrefabInstance: {fileID: 1387771303}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &244297663 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100020, guid: 02257fc10ef7ad149b5daa123a7df881,
@@ -664,12 +652,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 604c0c137b68e6c41999b6421d5e7d05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Goal: {fileID: 2067671748}
+  Goal: {fileID: 499217542}
   IsEquipeBlue: 1
   Ball_First: {fileID: 1661997814}
   Ball: {fileID: 830750393}
   HasBall: 0
   Perception: {fileID: 851948356}
+  AutresAgents:
+  - {fileID: 889702231}
+  - {fileID: 1998356473}
 --- !u!4 &620334601 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4521296116772160, guid: 70d695e1d8399400bb0f2873bdf29bb0,
@@ -79428,6 +79419,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4521296116772160, guid: 70d695e1d8399400bb0f2873bdf29bb0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4521296116772160, guid: 70d695e1d8399400bb0f2873bdf29bb0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0000002
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70d695e1d8399400bb0f2873bdf29bb0, type: 3}
 --- !u!1 &878230288 stripped
@@ -79461,12 +79460,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 604c0c137b68e6c41999b6421d5e7d05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Goal: {fileID: 158650767}
+  Goal: {fileID: 499217542}
   IsEquipeBlue: 1
   Ball_First: {fileID: 1661997814}
   Ball: {fileID: 2120743348}
   HasBall: 0
   Perception: {fileID: 513146645}
+  AutresAgents:
+  - {fileID: 889702231}
+  - {fileID: 1998356473}
 --- !u!4 &878230292 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4521296116772160, guid: 70d695e1d8399400bb0f2873bdf29bb0,
@@ -79581,12 +79583,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 604c0c137b68e6c41999b6421d5e7d05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Goal: {fileID: 236062494}
+  Goal: {fileID: 807613167}
   IsEquipeBlue: 0
   Ball_First: {fileID: 1661997814}
   Ball: {fileID: 1029888348}
   HasBall: 0
   Perception: {fileID: 0}
+  AutresAgents:
+  - {fileID: 878230290}
+  - {fileID: 620334599}
 --- !u!4 &889702234 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4535779181765056, guid: f203a22ac5f5e484386222536623c6ab,
@@ -79969,7 +79974,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh19512
+  m_Name: pb_Mesh18446
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -80386,12 +80391,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 604c0c137b68e6c41999b6421d5e7d05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Goal: {fileID: 236062494}
+  Goal: {fileID: 807613167}
   IsEquipeBlue: 0
   Ball_First: {fileID: 1661997814}
   Ball: {fileID: 1602916724}
   HasBall: 0
   Perception: {fileID: 0}
+  AutresAgents:
+  - {fileID: 878230290}
+  - {fileID: 620334599}
 --- !u!4 &1998356475 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4535779181765056, guid: f203a22ac5f5e484386222536623c6ab,
@@ -80609,12 +80617,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cb7c129b7ec1fb4293dd40773bdce33, type: 3}
---- !u!1 &2067671748 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100006, guid: 02257fc10ef7ad149b5daa123a7df881,
-    type: 3}
-  m_PrefabInstance: {fileID: 1387771303}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2120743348 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 7cb7c129b7ec1fb4293dd40773bdce33,
