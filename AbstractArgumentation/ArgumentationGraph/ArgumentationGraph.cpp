@@ -46,7 +46,7 @@ void ArgumentationGraph::resolve(){
     In.push_back(Argument("P2"));
     In.push_back(Argument("P3"));
 
-    for(int iter = 0; iter < 5; iter++){
+    for(int iter = 0; iter < 50; iter++){
     //**********Chercher les arguments OUT***************
     //An argument is Out if at least one of its attackers is IN
         for(size_t i = 0; i < arguments.size(); i++){

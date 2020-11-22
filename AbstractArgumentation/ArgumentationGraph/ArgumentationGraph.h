@@ -15,6 +15,7 @@ public :
         void addAttaque(const Argument & a, const Argument & b);
         void resolve();
         void showGraph();
+        std::vector<std::vector<Argument>> getArguments(){return arguments;}
 
 private :
         std::vector<std::vector<Argument>> arguments;
